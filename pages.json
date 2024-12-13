@@ -1,0 +1,40 @@
+{
+	"pages": [ 
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "今日 Top 3"
+			}
+		},
+		{
+			"path" : "pages/newTarget/newTarget",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "Top 3",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+        "color": "#7A7E83",
+        "selectedColor": "#3cc51f",
+        "backgroundColor": "#ffffff",
+        "borderStyle": "black",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "Top 3"
+            },
+            {
+                "pagePath": "pages/achievements/index",
+                "text": "成就"
+            }
+        ]
+    },
+	"uniIdRouter": {}
+}

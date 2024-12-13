@@ -1,0 +1,31 @@
+
+
+.card-empty{
+    width: 700upx;
+    height: 300upx;
+    margin: 10upx;
+    padding: 10upx;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-todo{
+    width: 700upx;
+    margin: 10upx;
+    padding: 10upx;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-todo-target .todo-target-title{
+    font-size: 20upx;
+    font-weight: bold;
+    margin-bottom: 10upx;
+}
+
